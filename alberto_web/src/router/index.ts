@@ -18,22 +18,22 @@ const router =  createRouter({
   routes
 });
 
-router.beforeEach( async (to) => {
+// router.beforeEach( async (to) => {
 
-  // const publicPages = ['/login', '/register-main', '/password-recovery', '/', '/register-users', '/register-restaurants', '/establecimientos'];
-  // const authRequired = !publicPages.includes(to.path);
-  // const auth = useAuthStore();
-  // const expired = auth.isExpired();
-  // console.log('expired', expired);
-  // if (authRequired && (!auth.user || expired === false))  {
-  //   //auth.returnUrl = to.fullPath;
-  //   auth.logout();
-  //   return '/login';
-  // } else if (to.path === '/login' && auth.user != null && expired === true) {
-  //   return '/my-profile';
-  // }
-}
-);
+//   // const publicPages = ['/login', '/register-main', '/password-recovery', '/', '/register-users', '/register-restaurants', '/establecimientos'];
+//   // const authRequired = !publicPages.includes(to.path);
+//   // const auth = useAuthStore();
+//   // const expired = auth.isExpired();
+//   // console.log('expired', expired);
+//   // if (authRequired && (!auth.user || expired === false))  {
+//   //   //auth.returnUrl = to.fullPath;
+//   //   auth.logout();
+//   //   return '/login';
+//   // } else if (to.path === '/login' && auth.user != null && expired === true) {
+//   //   return '/my-profile';
+//   // }
+// }
+// );
 
 export default router
 
