@@ -9,10 +9,16 @@ import Footer from '../components/Footer.vue'
 <v-app>
   <Barnav></Barnav>
   <v-main>
-
-    <p style="align-items: center; text-decoration: underline;">Alberto Zarza</p>
-
-
+    <v-container style="padding: 5em;">
+      <v-card color="indigo-darken-1"  title="Hola!" >
+        <v-card-text>
+          Bienvenido a mi pagina web!
+       </v-card-text>
+        <v-card-actions>
+          <v-btn>Click me</v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-container>
   </v-main>
   
 

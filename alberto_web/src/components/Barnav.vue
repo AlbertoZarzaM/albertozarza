@@ -1,6 +1,6 @@
 <template>
   
-      <v-app-bar color="light"  scroll-behavior="elevate">
+      <v-app-bar color="indigo-darken-3"  scroll-behavior="elevate">
        
         <v-app-bar-title> 
           <p>Alberto Zarza</p>
